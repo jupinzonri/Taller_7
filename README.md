@@ -10,16 +10,21 @@ El proyecto está pensado para ejecutarse en **Google Colab** sin necesidad de A
 
 | Archivo | Descripción |
 |---|---|
-| `colab_taller7.py` | Código completo de los 5 ejercicios, organizado en celdas listas para copiar a Colab. |
+| `Taller_7_IA_Generativa.ipynb` | **Notebook listo para abrir en Google Colab** (celdas ya separadas). |
+| `colab_taller7.py` | Mismo código en formato script `.py` (celdas marcadas con `# %% [N]`). |
 | `README.md` | Este documento. |
 
 ---
 
 ## 🚀 Cómo ejecutar en Google Colab
 
-1. Abre [Google Colab](https://colab.research.google.com/) y crea un notebook nuevo.
-2. Copia el contenido de `colab_taller7.py`. Cada bloque marcado con `# %% [N]` es **una celda**: pégalos en orden.
-3. Ejecuta la celda `[1]` para instalar dependencias.
+**Opción recomendada (notebook):**
+1. Descarga `Taller_7_IA_Generativa.ipynb` y súbelo a [Google Colab](https://colab.research.google.com/) (`Archivo → Subir notebook`), o ábrelo directo desde GitHub con `File → Open notebook → GitHub`.
+2. Ejecuta las celdas en orden (empezando por la de instalación de dependencias).
+
+**Opción alterna (script):**
+1. Crea un notebook nuevo en Colab y copia el contenido de `colab_taller7.py`. Cada bloque marcado con `# %% [N]` es **una celda**: pégalos en orden.
+2. Ejecuta la primera celda para instalar dependencias.
 4. (Ejercicio 3, opcional) Sube el PDF del taller a Colab con el nombre **`taller7.pdf`** para que el chatbot use el documento real. Si no lo subes, se usa un resumen embebido.
 5. Ejecuta el resto de celdas en orden.
 
